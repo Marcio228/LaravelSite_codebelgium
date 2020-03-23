@@ -1,0 +1,368 @@
+@media screen and (main-width:1367px) {
+    .bottom_panel {
+        background-size: 100% 100%;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .nav-menu a {
+        padding: 25px 7px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:1050px) {
+}
+
+@media screen and (max-width:992px) {
+    .nav-menu a {
+        padding: 13px 13px;
+        font-size: 14px;
+    }
+
+    header .left {
+        float: left;
+        width: 100%;
+    }
+
+    header .right {
+        width: 100%;
+        text-align: center;
+    }
+
+    header .left nav {
+        width: calc(100% - 232px);
+        text-align: right;
+        padding-left: 0px;
+    }
+
+    .flexslider .slides img {
+        min-height: 790px;
+    }
+
+    .upper_slider_panel {
+        top: 150px;
+        transform: translateY(0%);
+    }
+
+    .main_panel_inner {
+        width: calc(100%/2 - 34px);
+    }
+
+    .course_panel_widebox_matter {
+        width: 100%;
+    }
+
+    .course_panel_widebox:nth-child(odd) .course_panel_widebox_matter_inner, .course_panel_widebox:nth-child(even) .course_panel_widebox_matter_inner {
+        max-width: 100%;
+    }
+
+    .course_panel_widebox_imagecapsul {
+        width: 90%;
+        margin: 40px 0;
+    }
+
+    .course_panel_widebox:nth-child(odd) .course_panel_widebox_imagecapsul {
+        float: right;
+    }
+
+    .contact_mid_panel .left {
+        width: 50%;
+    }
+
+    .course_details_rightcapsul {
+        width: 100%;
+    }
+
+    .course_details_left_capsul {
+        width: 90%;
+    }
+
+    .course_details_rightcapsul article {
+        max-width: 700px;
+        text-align: center;
+    }
+
+    .flexi_panel_left, .flexi_panel_right {
+        width: 100%;
+    }
+
+    .course_wnttogo_panel_left {
+        width: 100%;
+    }
+
+    .course_wnttogo_panel_right {
+        width: 100%;
+        margin: 30px 0;
+    }
+
+    .top_canvas video {
+        height: 800px;
+    }
+}
+
+@media screen and (max-width:860px) {
+    .block_capsul .left {
+        width: 100%;
+        max-width: 200px;
+    }
+
+    .block_capsul .right {
+        width: 100%;
+    }
+
+    .block_capsul {
+        text-align: center;
+        padding-right: 100px;
+    }
+
+    .block_capsul {
+        padding-bottom: 100px;
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    header .left {
+        width: 200px;
+        padding-top: 8px;
+    }
+
+    header .right {
+        width: calc(100% - 204px);
+        margin-top: 5px;
+    }
+
+    header {
+        position: absolute;
+        top: 0;
+    }
+
+    header .right a {
+        padding: 5px 20px;
+        border-radius: 60px;
+        display: inline-block;
+    }
+
+    header .right a {
+        font-size: 14px;
+        padding: 7px 20px;
+    }
+
+    .upper_slider_panel {
+        top: 50px;
+        transform: translateY(0%);
+    }
+
+    .upper_slider_panel_left {
+        text-align: center;
+    }
+
+    .upper_slider_panel h2 {
+        font-size: 30px;
+    }
+
+    .upper_slider_panel_left p {
+        font-size: 16px;
+    }
+
+    .flexslider .slides img {
+        min-height: 690px;
+    }
+
+    .index_leftcurve_matter {
+        width: 100%;
+    }
+
+    .index_leftcurve {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .index_leftcurve_matter_inner {
+        max-width: 100%;
+    }
+
+    .indexblog_panel h2 {
+        font-size: 30px;
+    }
+
+    .about_banner_panel img {
+        min-height: 200px;
+    }
+
+    .about_matter_rightcapsul {
+        width: 100%;
+    }
+
+    .headerafterheight {
+        height: 40px;
+    }
+
+    .quickquote_side_button img:nth-child(1) {
+        display: none;
+    }
+
+    .quickquote_side_button img:nth-child(2) {
+        display: block;
+    }
+
+    .quickquote_side_button {
+        right: 0;
+        bottom: 0;
+        margin-top: 200px;
+    }
+
+    .quickquote_side {
+        top: 10%;
+    }
+
+    .top_canvas video {
+        height: 700px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .course_details_left_capsul_inner {
+        width: 100%;
+        padding: 40px 100px 40px 40px;
+    }
+
+    .about_banner_panel article {
+        font-size: 30px;
+    }
+
+    .flexi_panel_right_box_matter .maintext span, .flexi_panel_left_box_matter .maintext span {
+        font-size: 30px;
+    }
+
+    .informationboxtab_top .inner a {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    header .left .logo {
+        width: 150px;
+        display: inline-block;
+        vertical-align: middle;
+        transition: 0.5s;
+    }
+
+    .main_panel_inner {
+        width: calc(100% - 34px);
+    }
+
+    .about_testicapsul {
+        text-align: left;
+    }
+
+    .contact_mid_panel .left {
+        width: 100%;
+        position: relative;
+        margin: 30px 0 0 0;
+        top: 0;
+        border-radius: 0 0 50px 50px;
+        height: auto;
+    }
+
+    .contact_mid_panel .left_inner {
+        padding: 50px 20px;
+        text-align: center;
+        border-radius: 0 0 50px 50px;
+        height: auto;
+    }
+
+    .coursedtl_instructor_panel_large_right {
+        width: 100%;
+        padding-left: 0;
+        margin-top: 15px;
+    }
+
+    .course_detail_typicial_panel_inner article {
+        width: 100%;
+        display: inline-block;
+        padding-left: 0;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .contact_mid_panel iframe {
+        width: 100%;
+        padding: 0 15px;
+        margin-top: -60px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    header .left .logo , .sticky .left .logo {
+        width: 110px;
+    }
+
+    header .left {
+        width: 110px;
+    }
+
+    header .right {
+        width: calc(100% - 114px);
+        margin-top: 5px;
+    }
+
+    header .right a:last-child {
+        width: auto;
+        padding: 7px 10px;
+    }
+
+    .flexslider .slides img {
+        min-height: 772px;
+    }
+
+    .upper_slider_panel_right h3 {
+        font-size: 18px;
+    }
+
+    .upper_slider_panel_right p {
+        margin: 9px 0;
+    }
+
+    .upper_slider_panel h2 {
+        font-size: 20px;
+    }
+
+    .bottom_panel .iconbox {
+        font-size: 14px;
+    }
+
+    .loginreg_forgotpass {
+        float: left;
+        width: 100%;
+        margin: 7px 0;
+    }
+
+    .loginreg_socialbutton {
+        margin: 5px 0px;
+        width: 100%;
+    }
+
+    .informationboxtab_top .inner a {
+        font-size: 13px;
+    }
+
+    .informationboxtab_weeks_panel .right {
+        font-size: 12px;
+    }
+
+    header .right ul li a {
+        font-size: 12px;
+    }
+
+    header .right ul li:last-child a {
+        font-size: 12px;
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 60px;
+    }
+}
+
+@media screen and (max-width:350px) {
+}

@@ -1,0 +1,55 @@
+*{margin:0px;padding:0px;box-sizing:border-box;}
+.flex-container a:hover,
+.flex-slider a:hover{outline:none;}
+.slides,
+.slides > li,
+.flex-control-nav,
+.flex-direction-nav{margin:0;padding:0;list-style:none;}
+.flex-pauseplay span{text-transform:capitalize;}
+.flexslider{margin:0;padding:0;}
+.flexslider .slides > li{display:none;-webkit-backface-visibility:hidden;}
+.flexslider .slides img{display:block;float:left;}
+.text_and_img_area{display:block;float:left;width:100%;margin-top:-25%;}
+.contanear{max-width:1150px;width:94%;margin:0px auto;}
+.slider_text_area{display:block;float:left;width:60%;background:rgba(0,0,0,.5);padding:15px 25px;}
+.slider_text_area h3{color:#FFF;font-size:30px;margin:0;font-weight:700;margin-top:0px;font-family:"Montserrat",sans-serif !important;}
+.slider_text_area h3 span{color:#F2DA06;}
+.slider_text_area p img{width:201px !important;height:46px !important;}
+.flexslider .slides:after{display:block;clear:both;visibility:hidden;line-height:0;height:0;}
+html[xmlns] .flexslider .slides{display:block;}
+* html .flexslider .slides{height:1%;}
+.no-js .flexslider .slides > li:first-child{display:block;}
+.flexslider{position:relative;zoom:1;}
+.flexslider .slides{zoom:1;}
+.flexslider .slides img{-moz-user-select:none;}
+.flex-viewport{max-height:2000px;-webkit-transition:all 1s ease;-moz-transition:all 1s ease;-ms-transition:all 1s ease;-o-transition:all 1s ease;transition:all 1s ease;}
+.loading .flex-viewport{max-height:300px;}
+.carousel li{margin-right:5px;}
+.flex-direction-nav{*height:0;}
+.flex-direction-nav a{text-decoration:none;display:block;width:52px;height:52px;margin:-20px 0 0;position:absolute;top:50%;z-index:10;overflow:hidden;opacity:0;cursor:pointer;}
+.flex-direction-nav a:before{font-size:40px;display:inline-block;content:'1';color:rgba(0, 0, 0, 0);}
+.flex-direction-nav a.flex-next:before{content:'1';}
+.flex-direction-nav .flex-prev{left:0px;-webkit-transition:all .5s;-moz-transition:all .5s;-ms-transition:all .5s;-o-transition:all .5s;transition:all .5s;transition-timing-function:ease-out;}
+.flex-direction-nav .flex-next{background:url(../images/arrows.png) right center;color:transparent;right:0px;-webkit-transition:all .5s;-moz-transition:all .5s;-ms-transition:all .5s;-o-transition:all .5s;transition:all .5s;transition-timing-function:ease-out;}
+.flexslider:hover .flex-direction-nav .flex-prev{background:url(../images/arrows.png) left center;opacity:1;left:20px;-webkit-transition:all .5s;-moz-transition:all .5s;-ms-transition:all .5s;-o-transition:all .5s;transition:all .5s;transition-timing-function:ease-out;}
+.flexslider:hover .flex-direction-nav .flex-next{opacity:1;right:20px;-webkit-transition:all .5s;-moz-transition:all .5s;-ms-transition:all .5s;-o-transition:all .5s;transition:all .5s;transition-timing-function:ease-out;}
+.flex-direction-nav .flex-disabled{opacity:0!important;filter:alpha(opacity=0);cursor:default;z-index:-1;}
+.flex-pauseplay a{display:block;width:20px;height:20px;position:absolute;bottom:5px;left:10px;opacity:0.8;z-index:10;overflow:hidden;cursor:pointer;color:#000;}
+.flex-pauseplay a:before{font-family:"flexslider-icon";font-size:20px;display:inline-block;content:'\f004';}
+.flex-pauseplay a:hover{opacity:1;}
+.flex-pauseplay a.flex-play:before{content:'\f003';}
+.flex-control-nav{width:100%;position:absolute;bottom:25px;text-align:left;text-align:center;}
+.flex-control-nav li{margin:0 4px;display:inline-block;zoom:1;*display:inline;}
+.flex-control-paging li a{width:15px;height:15px;display:block;background:#FFF;cursor:pointer;text-indent:-9999px;-webkit-border-radius:20px;-moz-border-radius:20px;color:transparent;border-radius:50px;}
+.flex-control-paging li a:hover{background:#8DD0D3;}
+.flex-control-paging li a.flex-active{background:#8DD0D3;cursor:default;}
+.flex-control-thumbs{margin:5px 0 0;position:static;overflow:hidden;}
+.flex-control-thumbs li{width:25%;float:left;margin:0;}
+.flex-control-thumbs img{width:100%;height:auto;display:block;opacity:.7;cursor:pointer;-moz-user-select:none;-webkit-transition:all 1s ease;-moz-transition:all 1s ease;-ms-transition:all 1s ease;-o-transition:all 1s ease;transition:all 1s ease;}
+.flex-control-thumbs img:hover{opacity:1;}
+.flex-control-thumbs .flex-active{opacity:1;cursor:default;}
+@media screen and (max-width:1200px){.flex-control-nav{padding-left:3%;}
+}
+@media screen and (max-width:950px){}
+@media screen and (max-width:800px){.flex-control-nav{padding-left:0;text-align:center;}
+}
